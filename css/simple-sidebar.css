@@ -1,0 +1,136 @@
+
+#wrapper {
+    overflow-x: hidden;
+ }
+ 
+ .ass{
+  background-color: #8c5ef2;
+  width: 240px;
+  height: 77px;
+ }
+ .assa{
+   background-color: #8255d4;
+  
+  
+ }
+
+ .btn-text-top {
+  position: relative;
+  top: 60px;
+  left: 20px;
+  background-color: #f5f6fa;
+  border: 1px solid rgba(255, 255, 255, .1);
+  padding: 15px 50px 15px 30px;
+  border-radius: 20px;
+  width: 200px;
+  height: 42px;
+  font-weight: 300;
+  color: #8795a2;
+}
+.btn-text-top, .link-menu-usuario {
+  font-family: Montserrat,sans-serif;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+
+
+
+ .nav{
+   right: 1px;
+  
+ }
+ .icon{
+   position: relative;
+   top: 20px;
+   right: 10px;
+   
+ }
+ .ico{
+   position: relative;
+   left: 100px;
+   
+ }
+
+ .ico1{
+   position: relative;
+   left: 50px;
+   top: 35px;
+
+ }
+
+ .text{
+   position: relative;
+   top: 18px;
+  font-weight: bolder;
+   
+ }
+ input {
+
+    text-indent: 40px;
+    width: ;
+}
+
+.busca{
+  position: relative;
+  top: 60px;
+  right: 160px;
+  
+  
+}
+
+.til{
+  position: relative;
+  font-size: 13px; 
+  color: #7e7e7e; 
+  font-weight: bolder;
+  top: 20px;
+  left: 20px;
+}
+
+
+ 
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin .25s ease-out;
+  -moz-transition: margin .25s ease-out;
+  -o-transition: margin .25s ease-out;
+  transition: margin .25s ease-out;
+  
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+    
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+
